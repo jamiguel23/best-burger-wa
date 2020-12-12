@@ -1,27 +1,30 @@
 * { 
     outline: 1px black solid;
-    background-color:#FFC084 ;
+    background-color ;
 
+}
+
+body {
+    background-color:#FFC084 ;
 }
 
 h1 {
     background-color:#A3BA34;
+    font-size: 400%;
 }
 
+nav {
+    background-color:#A3BA34;
+    
+     
 
-li{
-
-}
-
-
-p { 
-    padding:55px
 }
 
 h2 {
     background-color: #FF3C3C;
-    font-size: 200% 
-   
+    font-size: 300%;
+    
+    
 }
 
 img {
@@ -32,4 +35,15 @@ img {
 p{
     background-color:#A6583B;
     margin-left: 200px;
+    padding:55px;
+    ;
+}
+
+
+.center {
+    
+    margin: auto;
+    width: 60%;
+    border: 20px #A3BA34;
+    padding: 30px;
 }
