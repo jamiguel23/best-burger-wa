@@ -15,12 +15,15 @@ var color;
 
 if(response === "fries") {
     alertMessage = "Awesome! We prefer onion rings in this house";
+    color = "#FFFF00"
 
 }  else if(response==="onion rings"){
     alertMessage = "Dope! We prefer fries in this house";
+    color = "#FFFFFF"
 
 } else {
-    alertMessage = " Gross. Have you tried fries or onion ring?"
+    alertMessage = " Gross. Have you tried fries or onion rings?"
+    color = "#FF0000"
 }
 
 alert(alertMessage);
