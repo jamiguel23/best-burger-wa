@@ -8,12 +8,20 @@ console.log (firstName);
 var promtQuestion = "Do you prefer a fries or onion rings?";
 var response = prompt(promtQuestion);
 console.log (response);
+
+var alertMessage;
+var color;
+
+
 if(response === "fries") {
-    console.log("Awesome! We prefer onion rings in this house")
+    alertMessage = "Awesome! We prefer onion rings in this house";
 
 }  else if(response==="onion rings"){
-    console.log("Dope! We prefer fries in this house");
+    alertMessage = "Dope! We prefer fries in this house";
 
 } else {
-    console.log(" Gross. Have you tried fries or onion ring?")
+    alertMessage = " Gross. Have you tried fries or onion ring?"
 }
+
+alert(alertMessage);
+
