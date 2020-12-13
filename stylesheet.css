@@ -34,16 +34,20 @@ img {
 
 p{
     background-color:#A6583B;
-    margin-left: 200px;
+   
     padding:55px;
     ;
 }
 
 
-.center {
+.column {
+    float: left;
+    width: 33%;
+    text-align: center;
     
-    margin: auto;
-    width: 60%;
-    border: 20px #A3BA34;
-    padding: 30px;
+}
+
+#response-output {
+    text-align: center
+;
 }
