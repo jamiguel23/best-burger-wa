@@ -25,3 +25,7 @@ if(response === "fries") {
 
 alert(alertMessage);
 
+var element = document.getElementById('response-output')
+
+element.innerText = alertMessage;
+element.style.color = color;
