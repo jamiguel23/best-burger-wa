@@ -11,10 +11,13 @@ body {
 h1 {
     background-color:#A3BA34;
     font-size: 400%;
+    text-align: center;
 }
 
 nav {
     background-color:#A3BA34;
+    
+    text-align: center;
     
      
 
@@ -41,7 +44,7 @@ p{
 
 
 .column {
-    float: left;
+    float: right;
     width: 33%;
     text-align: center;
     
