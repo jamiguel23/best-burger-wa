@@ -1,16 +1,16 @@
-console.log("Hello, World!"); // "console echos Hello, World!""
+//console.log("Hello, World!"); // "console echos Hello, World!""
 
 
-var firstName; //creating varible firstName     
-firstName="Matt"; // firstName valued as Matt
-console.log (firstName); 
+//var firstName; //creating varible firstName     
+//="Matt"; // firstName valued as Matt
+//.log (firstName); 
 
-var promtQuestion = "Do you prefer a fries or onion rings?";
-var response = prompt(promtQuestion);
-console.log (response);
+var promtQuestion = "Do you prefer a fries or onion rings?"; //delare 'promtQuestion' for the start up question
+var response = prompt(promtQuestion); // declared variable 'response' to write promtQuuestion
+console.log (response); // logged response in console for later use
 
-var alertMessage;
-var color;
+var alertMessage; // declare varible 'alertMessage'
+var color; // declare variable color' 
 
 
 if(response === "fries") {
