@@ -41,4 +41,13 @@ reloadWittyMessage (response);
 alert(alertMessage);
 
 
+function counter() { 
+    for ( var i = 0; i<10; i++){
+    console.log(i);
+    
+}}
+
+
+counter ()
+
 
