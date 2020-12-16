@@ -44,34 +44,46 @@ function reloadWittyMessage (response) { // decalred function 'reloadWittyMessag
     element.style.color = color;
 }
 
-function addBurgerPhoto (favSandwich, description) {
-    if(favSandwich === cheeseburger) {
-        description = "does this look good?";
-    }
-
-    document.write ("<div> \
-                        <h2>" + favSandwich + "</h2> \
-                        <img src=\"images/" + addBurgerPhoto + ".png\"> \
-                    <p>" + favSandwich + description + ".</p> \
-                    </div>");
-
-}
-
-var favSandwich = "burgers";
-var description = "are you hungry?"
-addBurgerPhoto(favSandwich, description);                    
-
-function counter() { 
-    for ( var i = 0; i<10; i++){
-    console.log(i);
+function addImage() {
+    var numberOfBurgers = prompt("How many burgers do you want?");
+    for (var i = 0; i < numberOfBurgers; i++) {
+        console.log (i)
+//         document.write( "<div> /
+//                 <img scr="\Images/Burger.png\">) \
+//                 <p>" + favSandwich"
     }
 }
+
+
+
+// function addBurgerPhoto (favSandwich, description) {
+//     if(favSandwich === cheeseburger) {
+//         description = "does this look good?";
+//     }
+
+    // document.write ("<div> \
+    //                     <h2>" + favSandwich + "</h2> \
+    //                     <img src=\"images/" + addBurgerPhoto + ".png\"> \
+    //                 <p>" + favSandwich + description + ".</p> \
+    //                 </div>");
+
+// }
+
+// var favSandwich = "burgers";
+// var description = "are you hungry?"
+// addBurgerPhoto(favSandwich, description);                    
+
+// function counter() { 
+//     for ( var i = 0; i<10; i++){
+//     console.log(i);
+//     }
+// }
 
 validateUserPassword ()
 var fries=getUserPromt();
 reloadWittyMessage (fries);
 alert(alertMessage);
-counter ()
-
+// counter ()
+addImage();
 
 
