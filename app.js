@@ -48,9 +48,9 @@ function addImage() {
     var numberOfBurgers = prompt("How many burgers do you want?");
     for (var i = 0; i < numberOfBurgers; i++) {
         console.log (i)
-        document.write('<img src="Burger.png">'); 
+        document.write('<img src="Burger.png" width="100" height="100">'); }
                 
-}}
+}
 
 
 
