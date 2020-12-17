@@ -16,7 +16,7 @@ function validateUserPassword() {
     var userPassword =  "";
 
     while(userPassword !== storedPassword) {
-        userPassword= prompt('input password');
+        userPassword= prompt('Type "Yo"');
     }
 }
 
