@@ -48,11 +48,9 @@ function addImage() {
     var numberOfBurgers = prompt("How many burgers do you want?");
     for (var i = 0; i < numberOfBurgers; i++) {
         console.log (i)
-//         document.write( "<div> /
-//                 <img scr="\Images/Burger.png\">) \
-//                 <p>" + favSandwich"
-    }
-}
+        document.write('<img src="Burger.png">'); 
+                
+}}
 
 
 
@@ -61,7 +59,7 @@ function addImage() {
 //         description = "does this look good?";
 //     }
 
-    // document.write ("<div> \
+    // document.write ("<div> \5
     //                     <h2>" + favSandwich + "</h2> \
     //                     <img src=\"images/" + addBurgerPhoto + ".png\"> \
     //                 <p>" + favSandwich + description + ".</p> \
@@ -84,6 +82,7 @@ var fries=getUserPromt();
 reloadWittyMessage (fries);
 alert(alertMessage);
 // counter ()
-addImage();
+addImage () ;
+
 
 
